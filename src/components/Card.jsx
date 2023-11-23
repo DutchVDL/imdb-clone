@@ -15,6 +15,7 @@ const Card = ({ result }) => {
           className="sm:rounded-t-lg group-hover:opacity-80 transition-all duration-700"
           placeholder="blur"
           blurDataURL="../app/favicon.ico"
+          alt="picture"
         ></Image>
         <div className="p-2">
           <h2 className="truncate text-lg font-bold">
